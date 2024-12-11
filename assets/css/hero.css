@@ -1,0 +1,24 @@
+.hero-section {
+       background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/banner-bg.jpg') center/cover no-repeat;
+       color: white;
+       min-height: 850px;
+       height: 100%;
+       position: relative;
+       z-index: 1;
+   }
+   .content-wrapper{
+       padding: 152px 0;
+   }
+   #content-area h1{
+       margin-bottom: 45px;
+   }
+   #content-area h1 span {
+       color: var(--primary); /* Primary color for Elektrotechniek & Keukentechniek */
+   }
+   #content-area p span{
+       color: var(--secondary);
+   }
+   #content-area p{
+       color: var(--white);
+   }
+   
